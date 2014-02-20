@@ -1,0 +1,47 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.configuration,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:product.configuration,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:product.configuration,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:product.configuration,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:product.configuration,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:product.configuration,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "model:ir.action,name:act_product_configuration_form"
+msgid "Product Configuration"
+msgstr "Configuración productos"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "Configuración"
+
+msgctxt "model:ir.ui.menu,name:menu_product_configuration"
+msgid "Product Configuration"
+msgstr "Configuración productos"
+
+msgctxt "model:product.configuration,name:"
+msgid "Product Configuration"
+msgstr "Configuración productos"
+
+msgctxt "view:product.configuration:"
+msgid "Product Configuration"
+msgstr "Configuración productos"
