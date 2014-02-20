@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+<tryton>
+    <data>
+        <menuitem id="menu_configuration"
+            name="Configuration" icon="tryton-preferences"
+            parent="product.menu_main_product" sequence="0"/>
+        <record model="ir.ui.menu-res.group"
+                id="menu_configuration_group_product_admin">
+            <field name="menu" ref="menu_configuration"/>
+            <field name="group" ref="product.group_product_admin"/>
+        </record>
+
+        <record model="ir.ui.view" id="product_configuration_view_form">
+            <field name="model">product.configuration</field>
+            <field name="type">form</field>
+            <field name="name">configuration_form</field>
+        </record>
+
+        <record model="ir.action.act_window"
+                id="act_product_configuration_form">
+            <field name="name">Product Configuration</field>
+            <field name="res_model">product.configuration</field>
+        </record>
+        <record model="ir.action.act_window.view"
+                id="act_product_configuration_view1">
+            <field name="act_window" ref="act_product_configuration_form"/>
+            <field name="sequence" eval="1"/>
+            <field name="view" ref="product_configuration_view_form"/>
+        </record>
+
+        <menuitem id="menu_product_configuration"
+            action="act_product_configuration_form"
+            parent="menu_configuration" sequence="0" icon="tryton-list"/>
+    </data>
+</tryton>
