@@ -1,1 +1,8 @@
+* Add infraestructure to have company dependant fields in product.template and
+  product.category
+
+Version 3.2.0 - 2014-06-03
+* Adapted to vesion 3.2
+
+Version 3.0.0 - 2014-02-20
 * Initial release

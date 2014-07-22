@@ -2,13 +2,45 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
+msgctxt "field:product.category.company,category:"
+msgid "Category"
+msgstr "Categoría"
+
+msgctxt "field:product.category.company,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:product.category.company,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:product.category.company,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:product.category.company,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:product.category.company,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:product.category.company,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:product.category.company,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
 msgctxt "field:product.configuration,create_date:"
 msgid "Create Date"
-msgstr "Fecha de creación"
+msgstr "Fecha creación"
 
 msgctxt "field:product.configuration,create_uid:"
 msgid "Create User"
-msgstr "Usuario de creación"
+msgstr "Usuario creación"
 
 msgctxt "field:product.configuration,id:"
 msgid "ID"
@@ -26,6 +58,38 @@ msgctxt "field:product.configuration,write_uid:"
 msgid "Write User"
 msgstr "Usuario modificación"
 
+msgctxt "field:product.template.company,company:"
+msgid "Company"
+msgstr "Empresa"
+
+msgctxt "field:product.template.company,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:product.template.company,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:product.template.company,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:product.template.company,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:product.template.company,template:"
+msgid "Template"
+msgstr "Plantilla"
+
+msgctxt "field:product.template.company,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:product.template.company,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
 msgctxt "model:ir.action,name:act_product_configuration_form"
 msgid "Product Configuration"
 msgstr "Configuración productos"
@@ -38,9 +102,17 @@ msgctxt "model:ir.ui.menu,name:menu_product_configuration"
 msgid "Product Configuration"
 msgstr "Configuración productos"
 
+msgctxt "model:product.category.company,name:"
+msgid "Product Category by Company fields"
+msgstr "Categoría de producto: Campos por empresa"
+
 msgctxt "model:product.configuration,name:"
 msgid "Product Configuration"
 msgstr "Configuración productos"
+
+msgctxt "model:product.template.company,name:"
+msgid "Product Template by Company fields"
+msgstr "Plantilla de producto: Campos por empresa"
 
 msgctxt "view:product.configuration:"
 msgid "Product Configuration"
