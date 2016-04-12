@@ -7,9 +7,7 @@ from trytond.tests.test_tryton import ModuleTestCase
 
 class TestCase(ModuleTestCase):
     'Test module'
-
-    def setUp(self):
-        trytond.tests.test_tryton.install_module('product_configuration')
+    module = 'product_configuration'
 
 
 def suite():
